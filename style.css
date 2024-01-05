@@ -1,0 +1,120 @@
+
+  .login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .welcome{
+    font-weight: bold;
+    font-size: 60px;
+  }
+
+  .checked-row {
+    text-decoration: line-through;
+    text-decoration-color: black; /* Set the color to black */
+    /* Add any other styling you want for checked rows */
+  }
+  
+  
+
+
+  
+  .form_container {
+    width: 30%;
+    max-width: 400px; /* Limit the maximum width for larger screens */
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .form_container {
+      width: 45%;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .form_container {
+      width: 65%;
+    }
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+  }
+  
+  body {
+    font-family: "Source Sans Pro", sans-serif;
+    color: white;
+    font-weight: 300;
+    background: #50a3a2;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* .container {
+    margin: 10% auto;
+    padding: 80px 0;
+    text-align: center;
+  } */
+  
+  .container h3 {
+    font-size: 40px;
+    font-weight: 200;
+  }
+  
+  input {
+    border: 1px solid rgba(252, 252, 252, 0.4);
+    background-color: rgba(252, 252, 252, 0.2);
+    width: 100%; 
+    border-radius: 3px;
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 10px 15px;
+    margin: 0 auto 10px auto;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+  }
+  
+  button {
+    appearance: none;
+    outline: 0;
+    background-color: white;
+    border: 0;
+    padding: 10px 15px;
+    color: #50a3a2;
+    border-radius: 3px;
+    width: 100%; /* Use 100% width for responsiveness */
+    font-size: 18px;
+  }
+
+  .table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse; /* Remove borders between cells */
+  }
+  
+  .table th, .table td {
+    width: 25%;
+    padding: 8px;
+    text-align: center; /* Center the text in cells */
+  }
+  
+  .table th {
+    background-color: #f2f2f2; /* Optional: add a background color for header cells */
+  }
+  
+  
+
+  .custom-btn { 
+    width: 200px;
+  }
